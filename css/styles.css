@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background-color: #00337C;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  a:link, a:visited {
+    background-color: transparent;
+    color: rgb(33, 120, 191);
+    border: 0.5px solid #00337C;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;   
+  }
+  
+  a:hover, a:active {
+    background-color: #00337C;
+    color: white;
+  }
+h1 {
+    margin-top: 0;
+    color: rgb(254, 254, 254);   
+}
+p, table, label,h3,h2 {
+    color: rgb(254, 254, 254);
+}
+.top-box {
+    padding-top: 20%;
+    height: 100%;
+    width: 100%;
+    
+}
+.Home-box {
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: 'Sacramento', cursive;
+    height: 100vh;
+    margin: 0px; 
+}
+#sticker {
+    width: 8%;
+    height: 15%;
+}
+.about-box {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #00337C;
+    
+}
+.second-box {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.middle-box {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.third-box {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background: url(11111.png);
+    background-size: cover;
+    text-align: start;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 6vh; 
+    align-content: center;  
+}
+.nav-head{
+    display: inline-block;
+    margin: 0%,10%;
+    
+}
+.nav {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    
+}
+.home{
+    display: inline;
+    padding: 0px,50vh,0px,30vh;
+}
+.bio{
+    width: 50%;
+    max-height: 100vh;
+    margin-left: 20%;
+    font-size: 0.7em;
+    text-align: left;
+    display: inline-block;
+}
+.bio-img{
+    position: relative;
+    width:10%;
+    height: 20%;
+    display: inline-block;
+    
+}
+#bioimg{
+    width: 320%;
+    display: inline-block;
+    margin: 0%,30%,0%,5%;
+}
+.cont{
+    display: inline;
+}
+table,form{ 
+    display: inline;
+    
+    
+}
+.details{
+    padding-left: 10%;
+    display: inline-block;
+    font-size: 0.7em;
+}
+.end-sticker{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10%;
+    display: inline-block;
+    
+    
+}
+form{
+    align-content: center;
+}
+#endsticker{
+    max-width: 60%;
+}

@@ -1,0 +1,263 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background: #1a1a1a;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  h1, h2, h3 {
+    color: #f4f4f4;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  a:hover {
+    color: #889322;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ddd30a;
+    color: #090000;
+    border-radius: 5px;
+    margin: 10px 5px;
+  }
+  
+  .btn:hover {
+    background: #9fa403;
+  }
+  
+  /* Header */
+  header {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #222;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #f3ef3d;
+  }
+
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+  }
+
+  /* Services Section */
+#services {
+  background: #222;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#services h2 {
+  margin-bottom: 40px;
+  color: #f4f4f4;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-tile {
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 30%;
+  min-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-tile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.tile-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.tile-content h3 {
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.tile-content p {
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-tile {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-tile {
+    width: 100%;
+  }
+}
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* YouTube Section */
+  #youtube {
+    background: #222;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-container iframe {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #contact label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #333;
+    color: #f4f4f4;
+  }
+  
+  #contact button {
+    background: #ddd30a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background: #efce3e;
+  }
+  
+  /* Footer */
+  footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+  }

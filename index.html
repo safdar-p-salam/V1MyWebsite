@@ -1,69 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" sizes="96x96" href="css/favicon-96x96.png">
-    <title>Safdar P Salam</title>
-    <!-------------------------Fonts--------------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-    <!--------------------------------------------------------->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safdar P Salam - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav">
-        <header>
-            <div class="nav-head"><a href="#home">Home</a> </div>
-            <div class="nav-head"><a href="#about">About</a> </div>
-            <div class="nav-head"><a href="#skills">Skills</a> </div>
-            <div class="nav-head"><a href="#contact-me">Get in touch</a> </div>
-          </header>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Simply Saaf</h1>
+      <p>Tech Enthusiast &emsp; | &emsp; Web Developer &emsp; | &emsp; Quality Testing Expert</p>
     </div>
-   <div class="Home-box" id="home">
-        <div class="top-box"> 
-                <img id="sticker" src="css/giphy.gif" alt="">
-            
-                <h1>I'm Safdar</h1>
-                <h2>Welcome to my page!!</h2>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="container">
+        <img src="profile.png" alt="Safdar P Salam" class="profile-img">
+      </div>
+      <div class="container">
+        <h2>Hi, I'm Safdar P Salam</h2>
+        <p>I'm a passionate tech enthusiast with expertise in web development and software quality testing. 
+          With a strong eye for detail and a love for problem-solving, 
+          I ensure that every project I work on meets the highest standards of quality and performance.</p>
+        <a href="#contact" class="btn">Let's Connect!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+
+    <div class="container">
+      <h2>What I Offer</h2>
+      <div class="services-grid">
+        <!-- Web Development Tile -->
+        <div class="service-tile">
+            <h3>Web Development</h3>
+            <p>I design and develop responsive, user-friendly websites tailored to your business needs.</p>
         </div>
-   </div>
-        <div class="middle-container" id="about">
-            <div class="profile">
-              <img class="bio-img" src="css/bio.png" alt="">
-              <h2>Hello.</h2>
-              <p>Hi, I'm Safdar P Salam, a developer with a passion for creating innovative and user-friendly solutions. I have a strong interest in technology and a desire to constantly learn and improve my skills.<br><br>        
-                Thank you for taking the time to visit my website and learn more about me. I am looking forward to the opportunity to work with you and help bring your vision to life<br></p>
-            </div>
-            <hr>
-            <div class="skills" id="skills">
-              <h2>My Skills.</h2>
-              <div class="skill-row1">
-                <img class="skillimg1" src="https://media0.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=ecf05e47khbe95tbk3zt38w14zmuwxaffyhvs7pmv4d6l0q4&rid=giphy.gif&ct=g" alt="">
-                <h3>Web development</h3>
-                <p>Develop fully fludged dinamic Web applications<br>HTML, CSS, JavaScript, Node.js, SQL <br>UI/UX designing.</p>
-              </div>
-              <div class="skill-row2">
-                <img class="skillimg2" src="css/QA.png" alt="">
-                <h3>Functional Testing</h3>
-                <p>Prepare Test cases for Functional Testing<br>Automate Tests Using Selenium frameworks<br>Test Report Generating</p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact-me" id="contact-me">
-              <h2>Get In Touch</h2>
-              <h3>Safdar P Salam</h3>
-              <p>Thank you for taking the time to visit my website and learn more about me. I am looking forward to the opportunity to work with you and help bring your vision to life</p>
-              <a class="btn" href="mailto:safdarpsalam16@gmail.com">CONTACT ME</a>
-            </div>
-          </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://www.youtube.com/@TecTraFunwithSafdar">Youtube</a>
-            <a class="footer-link" href="https://www.instagram.com/safdar_p_salam">Instagram</a>
-            <p>© Safdar P Salam</p>
-          </div>
-   </body>
- </html>
+    
+        <!-- Quality Testing Tile -->
+        <div class="service-tile">
+            <h3>Quality Testing</h3>
+            <p>I provide comprehensive software testing services to ensure your applications are bug-free and perform flawlessly.</p>
+        </div>
+    
+        <!-- Consultation Tile -->
+        <div class="service-tile">
+            <h3>Consultation</h3>
+            <p>I offer expert advice on improving software quality and optimizing web development processes.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="Skill-1">
+          <h3>Quality Assurance</h3>
+          <p>Functional Testing, Api testing, Postman, Manual Testing, Test Automation using Java Selenium, Playwright Automation, Test Planning and design, Jira</p>
+      </div>
+      <div class="Skill-2">
+        <h3>Languages</h3>
+        <p>Java, Javascript, Html CSS, React</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="youtube">
+    <div class="container">
+      <h2>Have you seen my Vlogs?</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SJM_76CL_iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Let's Connect!</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/safdar-p-salam/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/@SimplySaaf" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/simplysaaf" target="_blank">Instagram</a></li>
+      </ul>
+      <p>&copy; 2024 Safdar P Salam. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

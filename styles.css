@@ -1,5 +1,4 @@
 /* General Styles */
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,15 +16,18 @@ body {
   
   h1, h2, h3 {
     color: #f4f4f4;
+      font-family: "Cantora One", serif;
+    font-weight: 400;
+    font-style: normal;
   }
-  
+
   a {
     text-decoration: none;
     color: #3498db;
   }
   
   a:hover {
-    color: #889322;
+    color: #593415;
   }
   
   .btn {
@@ -142,44 +144,39 @@ body {
   line-height: 1.6;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .service-tile {
-    width: 45%;
-  }
+  /* Skills Section */
+#skills {
+  background: #222;
+  padding: 50px 0;
+  text-align: center;
 }
 
-@media (max-width: 480px) {
-  .service-tile {
-    width: 100%;
-  }
+#skills h2 {
+  margin-bottom: 40px;
+  color: #f4f4f4;
 }
-  
-  /* Portfolio Section */
-  #portfolio {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .portfolio-item {
-    margin-bottom: 20px;
-  }
-  
-  /* Skills Section */
-  #skills {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  #skills ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #skills ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-bubble {
+  background: #2d2d2c;
+  color: #dff48b;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-bubble:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
   
   /* YouTube Section */
   #youtube {
